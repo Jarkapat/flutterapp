@@ -1,8 +1,6 @@
 // main.dart
 import 'package:flutter/material.dart';
 
-import 'screenA.dart';
-import 'screenB.dart';
 import 'mytabbar.dart';
 
 void main() {
