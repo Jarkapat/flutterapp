@@ -131,13 +131,17 @@ class _RegisterFormState extends State<RegisterForm> {
                   ElevatedButton(
                     onPressed: _register,
                     child: Text("Register"),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white),
                   ),
                   SizedBox(width: 16),
                   ElevatedButton(
                     onPressed: () => Navigator.pop(context),
                     child: Text("Cancel"),
                     style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.grey),
+                        backgroundColor: Colors.grey,
+                        foregroundColor: Colors.white),
                   ),
                 ],
               ),
