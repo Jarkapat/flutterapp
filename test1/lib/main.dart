@@ -27,13 +27,13 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCNqVakQIPZytYno6U6Ucc2lJuZrV4Q6Gk",
-        authDomain: "demoflutter-9f039.firebaseapp.com",
-        projectId: "demoflutter-9f039",
-        storageBucket: "demoflutter-9f039.firebasestorage.app",
-        messagingSenderId: "389706081844",
-        appId: "1:389706081844:web:38de462f175dc773658c61",
-        measurementId: "G-VEM073C5F4"
+        apiKey: "",
+        authDomain: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
       ),
     );
   } else {
