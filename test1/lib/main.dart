@@ -20,20 +20,20 @@ import 'package:flutter/foundation.dart'; // สำหรับ kIsWeb
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'ui/condb/CRUDAPI.dart';
-
+import 'ui/demo/Exampleeui.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "",
-        authDomain: "",
-        projectId: "",
-        storageBucket: "",
-        messagingSenderId: "",
-        appId: "",
-        measurementId: ""
+        apiKey: ",
+        authDomain: 
+        projectId:
+        storageBucket:
+        messagingSenderId: 
+        appId: 
+        measurementId: 
       ),
     );
   } else {
@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
       title: 'Firebase CRUD',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: CRUDAPIPage(), // call here
+      // home: Exampleeui(), // call here
     );
   }
 }
